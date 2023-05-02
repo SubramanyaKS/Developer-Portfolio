@@ -18,7 +18,7 @@ const NavigationBar = () => {
         <Navbar.Brand
           style={{
             fontFamily: "Comic Sans MS, Comic Sans, cursive",
-            color: "#00ff0d",
+            color: "#00eeff",
           }}
         >
         Logo
@@ -27,25 +27,25 @@ const NavigationBar = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link href="/">
-              <h5> Home </h5>
+              <h5 className="navigation-link"> Home </h5>
             </Nav.Link>
             <Nav.Link href="/about">
-              <h5> About </h5>
+              <h5 className="navigation-link"> About </h5>
             </Nav.Link>
             <Nav.Link href="/education">
-              <h5> Education</h5>
+              <h5 className="navigation-link"> Education</h5>
             </Nav.Link>
             <Nav.Link href="/experience">
-              <h5> Experience </h5>
+              <h5 className="navigation-link"> Experience </h5>
             </Nav.Link>
             <Nav.Link href="/project">
-              <h5> Project </h5>
+              <h5 className="navigation-link"> Project </h5>
             </Nav.Link>
             <Nav.Link href="/skills">
-              <h5> Skills </h5>
+              <h5 className="navigation-link"> Skills </h5>
             </Nav.Link>
             <Nav.Link href="/contact">
-              <h5> Contact </h5>
+              <h5 className="navigation-link"> Contact </h5>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
