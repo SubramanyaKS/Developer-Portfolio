@@ -1,11 +1,19 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
-
+import { Col, Container, Row } from 'react-bootstrap'
+import EducationCard from './EducationCard'
+import './Education.css'
 const Education = () => {
   return (
-    <section>
+    <section className="education-content" id="education">
         <Container>
-            <h5>Education</h5>
+            <h1 className="mb-5 title text-center">Education</h1>
+            <Row>
+              <Col>
+                <EducationCard/>
+                <EducationCard />
+                <EducationCard />
+              </Col>
+            </Row>
             
         </Container>
     </section>
