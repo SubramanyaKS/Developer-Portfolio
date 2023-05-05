@@ -1,0 +1,10 @@
+.about{
+    background-color:var(--primary);
+    padding:5%;
+    color:var(--white);
+}
+.heading{
+    color:var(--secondary);
+    text-align:center;
+    margin-bottom:3%;
+}
