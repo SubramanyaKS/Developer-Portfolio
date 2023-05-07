@@ -4,6 +4,9 @@
     /* text-align: center; */
 
 }
+.card-title{
+  font-size:30px !important;
+}
 .card-holder{
   /* text-align:center; */
   /* display:flex; */
