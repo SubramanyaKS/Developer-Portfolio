@@ -26,27 +26,38 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="/">
+            <ul className="navbar-nav ms-auto ">
+            <li className="m-2">
+            <a href="#">
               <h5 className="navigation-link"> Home </h5>
-            </Nav.Link>
-            <Nav.Link href="/about">
+            </a>
+            </li>
+            <li className="m-2">
+            <a href="#about">
               <h5 className="navigation-link"> About </h5>
-            </Nav.Link>
-            <Nav.Link href="/education">
+            </a>
+            </li>
+            <li className="m-2">
+            <a href="#education">
               <h5 className="navigation-link"> Education</h5>
-            </Nav.Link>
-            <Nav.Link href="/experience">
+            </a>
+            </li>
+            <li className="m-2">
+            <a href="#experience">
               <h5 className="navigation-link"> Experience </h5>
-            </Nav.Link>
-            <Nav.Link href="/project">
+            </a>
+            </li>
+            <li className="m-2">
+            <a href="#project">
               <h5 className="navigation-link"> Project </h5>
-            </Nav.Link>
-            <Nav.Link href="/skills">
-              <h5 className="navigation-link"> Skills </h5>
-            </Nav.Link>
-            <Nav.Link href="/contact">
+            </a>
+            </li>
+            <li className="m-2">
+            <a href="#contact">
               <h5 className="navigation-link"> Contact </h5>
-            </Nav.Link>
+            </a>
+            </li>
+            </ul>
           </Nav>
         </Navbar.Collapse>
       </Container>
