@@ -11,6 +11,7 @@
 .fa-code {
   color: aqua;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -22,6 +23,42 @@ nav {
 
 /* Main header */
 .home{
-  padding:14%;
+  padding:5%;
+  /* border:2px solid green !important; */
+}
+.name{
+  color:#00eeff;
+}
+.home-pic img{
+  /* background-color:blue; */
+  /* object-fit: cover; */
+  width: 100%;
+  height: auto;
+
+}
+.home-pic{
+  padding:5%;
+  /* border:2px solid green !important; */
+  /* background-color:red; */
+}
+.home-content{
+  padding:5%;
+  /* border:2px solid green !important; */
+}
+.navigation-link{
+  /* color:#2375fa; */
+  color:#00eeff;
+  padding:5%;
+  margin:1%;
 }
 
+/* Footer */
+.footer{
+  background-color:var(--primary) !important;
+  color:#fff;
+  padding:1%;
+  margin:0;
+}
+.footer-text{
+  text-align:center;
+}
