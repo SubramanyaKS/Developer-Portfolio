@@ -1,33 +1,180 @@
 .education-content{
-    padding-top:2%;
-    background-color:var(--primary);
-    /* text-align: center; */
+  background-color:var(--primary);
+  padding-top:2%;
+  padding-bottom:2%;
+} 
+.timeline{
+  position: relative;
+  max-width: 1200px;
+  margin: 90px auto;
+  /* color: red !important; */
+}
+.container-e{
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  opacity: 0;
+  animation:  movedown 1s linear forwards;
+  /* background-color: rgba(0,0,0,0.3); */
+}
+@keyframes movedown {
+  0%{
+      opacity: 1;
+      transform: translateY(-30px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+.container-e:nth-child(1){
+  animation-delay: 2s;
+}
+.container-e:nth-child(2){
+  animation-delay: 4s;
+}
+.container-e:nth-child(3){
+  animation-delay: 8s;
+}
+
+
+.text-box{
+ padding: 20px 20px; 
+ background: #fff;
+ position: relative;
+ border-radius: 6px;
+ font-size: 15px;
+}
+.text-box h2{
+  font-weight: 600;
+}
+.text-box small{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.left-container{
+  left: 0;
+}
+.right-container{
+  left:50%;
+}
+.container-e .card{
+  background-color: var(--navy) !important;
+  color:var(--secondary)!important;
+  /* box-shadow: 0 0 5px 10px var(--dark-red) !important; */
+  -webkit-box-shadow: 0 0 5px 10px var(--secondary);
+  -moz-box-shadow: 0 0 5px 10px var(--secondary);
+  box-shadow: 0 0 5px 10px var(--secondary);
+}
+/* .timeline-bullet {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Bullet width */
+  /* height: 20px; /* Bullet height */
+  /* background-color: #007bff; Bullet color */
+  /* border-radius: 50%; */
+  /* left: -10px; Adjust the distance from the timeline line */
+/* }  */
+.timeline-bullet{
+  position: absolute;
+  background-color: #007bff;
+  border-radius: 50%;
+  right: -10px;
+  z-index: 10;
+  top:32px;
+  height: 20px;
+  width: 20px;
+}
+.container-e img{
+  position: absolute;
+  /* background-color: #007bff; */
+  border-radius: 50%;
+  right: -20px;
+  z-index: 10;
+  top:32px;
+  height: 30px;
+  width: 40px;
+}
+.right-container .timeline-bullet{
+  left:-10px;
+}
+.right-container img{
+  left:-20px;
+}
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #fff !important;
+  top:0;
+  left: 50%;
+  margin-left: -3px;
+  z-index:1;
+  animation: moveline 8s linear forwards;
+}
+@keyframes moveline {
+  0%{
+      height: 0;
+  }
+  100%{
+      height: 100%;
+  }
+}
+.left-container-arrow{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top:20px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid var(--secondary);
+  right: 37px;
+}
+.right-container-arrow{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top:22px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid var(--secondary);
+  left: 37px;
+}
+@media screen and (max-width: 600px) {
+  .timeline{
+      margin: 50px auto;
+  }
+  .timeline::after{
+      left:31px;
+  }
+  .container-e{
+      width: 100%;
+      padding-left: 80px;
+      padding-right: 25px;
+  }
+  .text-box{
+      font-size: 13px;
+  }
+  .text-box small{
+      margin-bottom: 10px;
+  }
+  .right-container{
+      left:0;
+  }
+  .left-container .timeline-bullet, .right-container .timeline-bullet{
+      left:20px;
+  }
+  .left-container img, .right-container img{
+      left:10px;
+  }
+  .left-container-arrow, .right-container-arrow{
+      border-left: 0;
+      border-right: 15px solid var(--secondary);
+      left:68px;
+  }
 
 }
-.card-title{
-  font-size:30px !important;
-}
-.card-holder{
-  /* text-align:center; */
-  /* display:flex; */
-  align-item:center !important;
-  justify-content:center !important;
-  margin-left:16%;
- 
-}
-.card{
-    background-color:var(--secondary) !important;
-    color:var(--primary) !important;
-    padding-left:1%;
-    border-radius:2%;
-    width:75%;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-.title{
-    color:#0ef;
-} 
