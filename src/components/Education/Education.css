@@ -59,7 +59,7 @@
   left:50%;
 }
 .container-e .card{
-  background-color: var(--navy) !important;
+  background-color: var(--primary) !important;
   color:var(--secondary)!important;
   /* box-shadow: 0 0 5px 10px var(--dark-red) !important; */
   -webkit-box-shadow: 0 0 5px 10px var(--secondary);
