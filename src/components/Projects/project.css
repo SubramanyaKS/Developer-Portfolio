@@ -12,7 +12,9 @@
     transition: transform 0.5s;
     transform-style: preserve-3d;
   }
-  
+  .card-title{
+    color:var(--secondary);
+  }
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
