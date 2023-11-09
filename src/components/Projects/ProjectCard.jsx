@@ -9,14 +9,17 @@ const ProjectCard = ({data}) => {
     <div className="shadow-lg flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <img src={image} class="card-img-top" alt="..." />
+          <img src={image} className="card-img-top" alt="..." />
           <h4 className="card-title text-center">{data.title}</h4>
           <h6 className="card-subtitle text-center">{data.subtitle}</h6>
+          <p className="text-center m-5">{data.tech}</p>
         </div>
         <div className="flip-card-back">
           <p className="card-text">
           {data.description}
           </p>
+          
+          {/* {data.tech.map((i,d)=><p key={i}>{d}</p>)} */}
           <div className="social-buttons mt-5">
                     <a href={data.githubLink}>
                       {" "}
