@@ -1,0 +1,32 @@
+.circle-button {
+    width: 55px;
+    height: 55px;
+    background-color: var(--lighter-primary); /* Facebook blue color */
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.3s;
+    margin: 1%;
+  }
+  
+  .circle-button:hover {
+    box-shadow: 0px 0px 5px 5px var(--secondary);
+    width: 58px;
+    height: 58px;
+
+  }
+  .circle-button .icon{
+    color:var(--secondary);
+    border-radius: 50%;
+
+  }
+  
+  .circle-button:focus {
+    outline: none;
+  }
+  
