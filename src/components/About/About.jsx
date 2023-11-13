@@ -1,13 +1,14 @@
 import React from 'react'
 import './About.css';
 import { Container, Row, Col } from "react-bootstrap";
-import image from '../../assets/image/men.jpg';
 import { aboutdata } from '../../data/data';
+import { Bounce } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <div className="about" id="about">
         <h2 className="heading">Who I am?</h2>
+        <Bounce>
         <Row>
           <Col xs={8} md={8}>
           <p className="info">{aboutdata.intro}</p>
@@ -23,7 +24,7 @@ const About = () => {
           <img src={aboutdata.image} height="300" width="300" alt="your image"/>
           </Col>
         </Row>
-
+        </Bounce>
     </div>
   )
 }
