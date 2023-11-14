@@ -1,0 +1,11 @@
+/* Footer */
+.footer{
+    background-color:var(--primary) !important;
+    color:#fff;
+    padding:1%;
+    margin:0;
+  }
+  .footer-text{
+    text-align:center;
+    color:var(--secondary)
+  }
