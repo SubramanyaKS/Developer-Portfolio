@@ -1,0 +1,26 @@
+/* Main header */
+.home{
+    padding:5%;
+    /* border:2px solid green !important; */
+  }
+  .name{
+    color:#00eeff;
+  }
+  .home-pic img{
+    
+    /* object-fit: cover; */
+    width: 100%;
+    height: auto;
+  
+  }
+  .home-pic{
+    padding:3%;
+    /* border:2px solid green !important; */
+    /* background-color:red; */
+  }
+  .home-content{
+    padding:3%;
+    /* background-color:blue; */
+    /* border:2px solid green !important; */
+  }
+  
