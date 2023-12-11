@@ -1,5 +1,6 @@
 .about{
-    background-color:var(--primary);
+    /* background-color:var(--primary); */    
+    background: linear-gradient(45deg, #141e30, #243b55) !important;
     padding:5%;
     color:var(--white);
 }
