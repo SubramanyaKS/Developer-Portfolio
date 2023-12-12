@@ -7,13 +7,13 @@ const EducationCard = () => {
       
       <Card.Body>
         <Card.Title>Degree</Card.Title>
-        <Card.Text className="mb-0">
+        <Card.Text className="college mb-0">
           College/ University
         </Card.Text>
-        <Card.Text className="mb-3">
+        <Card.Text className="year mb-3">
           Year
         </Card.Text>
-        <Card.Text className="mb-1">
+        <Card.Text className="grade mb-1">
             Grade
         </Card.Text>
       </Card.Body>
