@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import image from '../../assets/image/developer_2.png';
+import image from '../../assets/image/developer_3.png';
 import { Typewriter } from 'react-simple-typewriter'
 import './Header.css';
 import { homedata } from '../../data/data';
@@ -24,8 +24,8 @@ const Header = () => {
             delaySpeed={1000}/>
           </span></h3>
           
-          <button>Get in Touch</button>
-          <button className="m-2">Resume</button>
+          <button className='outline-button'>Get in Touch</button>
+          <button className="outline-button m-2">Resume</button>
           </Col>
           <Col className="home-pic"  md={6} sm={4}>
           <img src={image} height={300} alt="Program" />
