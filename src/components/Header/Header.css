@@ -1,10 +1,13 @@
 /* Main header */
 .home{
     padding:5%;
+    background: linear-gradient(45deg, #141e30, #243b55) !important;
+    /* background: linear-gradient(to right, #1f293a, #364958) !important; */
+    /* background: linear-gradient(135deg, #1f293a, #263652) !important; */
     /* border:2px solid green !important; */
   }
   .name{
-    color:#00eeff;
+    color:var(--secondary);
   }
   .home-pic img{
     
@@ -23,4 +26,9 @@
     /* background-color:blue; */
     /* border:2px solid green !important; */
   }
-  
+  .outline-button{
+    background-color:var(--primary);
+    border: 1px solid var(--secondary);
+    color:var(--secondary);
+
+  }
