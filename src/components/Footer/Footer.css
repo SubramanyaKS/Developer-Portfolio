@@ -1,6 +1,8 @@
 /* Footer */
 .footer{
-    background-color:var(--primary) !important;
+    /* background-color:var(--primary) !important; */
+    
+    background: linear-gradient(45deg, #141e30, #243b55) !important;
     color:#fff;
     padding:1%;
     margin:0;
