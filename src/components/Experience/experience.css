@@ -3,7 +3,9 @@
     color:var(--secondary);
 }
 .experience-content{
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    padding-top: 1%;
+    background: linear-gradient(45deg, #141e30, #243b55) !important;
 }
 .card-title{
     margin-bottom:5%;
