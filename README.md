@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-This is demo portfolio using React JS.
+This is demo developer portfolio using React JS.
 
 ### Technology used.
 
