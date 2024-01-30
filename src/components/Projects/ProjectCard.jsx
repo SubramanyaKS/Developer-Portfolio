@@ -12,7 +12,7 @@ const ProjectCard = ({data}) => {
           <img src={image} className="card-img-top" alt="..." />
           <h4 className="card-title text-center">{data.title}</h4>
           <h6 className="card-subtitle text-center">{data.subtitle}</h6>
-          <p className="text-center m-5">{data.tech}</p>
+          <p className="tech text-center m-5">{data.tech}</p>
         </div>
         <div className="flip-card-back">
           <p className="card-text">
