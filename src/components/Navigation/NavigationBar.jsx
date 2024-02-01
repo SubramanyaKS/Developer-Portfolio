@@ -11,9 +11,8 @@ const NavigationBar = () => {
       style={{ color: "black" }}
       collapseOnSelect
       expand="lg"
-      bg="dark"
       variant="dark"
-      className="shadow-lg p-3 mb-0 bg-dark "
+      className="shadow-lg p-3 mb-0  "
     >
       <Container>
         <Navbar.Brand
@@ -30,32 +29,32 @@ const NavigationBar = () => {
             <ul className="navbar-nav ms-auto ">
             <li >
             <a className="navig nav-link m-2" href="#">
-             <h5 className="navigation-link d-flex"> <FontAwesomeIcon fontSize={20} icon={faHome}/> Home </h5>
+             <h6 className="navigation-link d-flex"> <FontAwesomeIcon fontSize={20} icon={faHome}/> Home </h6>
             </a>
             </li>
             <li >
             <a className="navig nav-link m-2" href="#about">
-              <h5 className="navigation-link d-flex"><FontAwesomeIcon icon={faUser}/>  About </h5>
+              <h6 className="navigation-link d-flex"><FontAwesomeIcon icon={faUser}/>  About </h6>
             </a>
             </li>
             <li >
             <a className="navig nav-link m-2" href="#education">
-              <h5 className="navigation-link d-flex"><FontAwesomeIcon icon={faBookOpen}/> Education</h5>
+              <h6 className="navigation-link d-flex"><FontAwesomeIcon icon={faBookOpen}/> Education</h6>
             </a>
             </li>
             <li >
             <a className="navig nav-link m-2" href="#experience">
-              <h5 className="navigation-link d-flex"><FontAwesomeIcon icon={faBriefcase}/> Experience </h5>
+              <h6 className="navigation-link d-flex"><FontAwesomeIcon icon={faBriefcase}/> Experience </h6>
             </a>
             </li>
             <li >
             <a className="navig nav-link m-2" href="#project">
-              <h5 className="navigation-link d-flex"> <FontAwesomeIcon icon={faCode}/>Project </h5>
+              <h6 className="navigation-link d-flex"> <FontAwesomeIcon icon={faCode}/>Project </h6>
             </a>
             </li>
             <li >
             <a className="navig nav-link m-2" href="#contact">
-              <h5 className="navigation-link d-flex"><FontAwesomeIcon icon={faGlobe}/> Contact </h5>
+              <h6 className="navigation-link d-flex"><FontAwesomeIcon icon={faGlobe}/> Contact </h6>
             </a>
             </li>
             </ul>
