@@ -4,7 +4,12 @@
   /* font-weight: 400; */
   --primary:#1f293a;
   --white:#fff;
-  --secondary:#0ef;
+  --lighter-primary:#263652;
+  --secondary:#00eeff;
+  --icon-color:#03fc7f;
+  /* --text-color:#4ecdc4; */
+  --text-color:#57fad3;
+  
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -29,10 +34,10 @@ a:hover {
 body {
   margin: 0;
   padding:0;
-  /* display: flex; */
-  /* place-items: center; */
-  /* min-width: 320px; */
-  /* min-height: 100vh; */
+  /* display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -68,6 +73,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #0ef;
+    background-color:var(--primary);
   }
 }
