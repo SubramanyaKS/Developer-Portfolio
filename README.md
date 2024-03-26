@@ -14,6 +14,7 @@ This is demo developer portfolio using React JS.
 * Operating System used is Windows  (Note: in linux i have not tested it).
 * You may use any editor of your choice (Recommended VS Code).
 
+
 ### Run and Setup
 
 1. Fork the Project and clone Repository using git clone
@@ -39,3 +40,11 @@ npm start
 ```
 http://localhost/3000
 ```
+
+## Contribution
+
+We welcome contributions! If you'd like to contribute to React-News-App, please follow our [Contribution Guidelines](https://github.com/SubramanyaKS/Developer-Portfolio/blob/main/CONTRIBUTING.md).
+
+### Credits
+
+* svg images used from [svgrepo](svgrepo.com)
