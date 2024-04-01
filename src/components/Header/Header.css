@@ -17,7 +17,7 @@
   
   }
   .home-pic{
-    padding:3%;
+    padding:1%;
     /* border:2px solid green !important; */
     /* background-color:red; */
   }
@@ -26,9 +26,21 @@
     /* background-color:blue; */
     /* border:2px solid green !important; */
   }
+  .icon-button{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;  
+}
+  .icons-button-container{
+    display: flex;
+    align-items:baseline;
+    justify-content:baseline;
+    margin-bottom: 3%;
+    margin-top: 10%;
+  }
   .outline-button{
     background-color:var(--primary);
     border: 1px solid var(--secondary);
     color:var(--secondary);
-
+    border-radius: 45px;
   }
