@@ -65,3 +65,26 @@ export const projectsdata =[
         tech:[' HTML ',' CSS ']
       }
 ]
+export const skillsdata =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/python--v1.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    id:3,
+    image:"https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    id:4,
+    image:"https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    id:5,
+    image:"https://img.icons8.com/ultraviolet/48/000000/react--v1.png"
+  },
+  
+]
