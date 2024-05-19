@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ProjectUI from './components/Projects/ProjectUI';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return ( 
@@ -18,6 +19,7 @@ function App() {
   <About/>
   <Experience/>
   <Education/>
+  <Skills/>
   <ProjectUI/>
   <Contact/>
   <Footer/>
