@@ -5,7 +5,7 @@ import { projectsdata } from '../../data/data';
 import { Slide } from 'react-awesome-reveal';
 
 const ProjectUI = () => {
-    console.log(projectsdata)
+    // console.log(projectsdata)
   return (
     <section id='project' className="project">
         <h2 className="text-center heading" style={{fontFamily: "cursive"}}> &nbsp; My Project.</h2>
